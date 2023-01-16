@@ -1,0 +1,283 @@
+html,
+body {
+    height: 100%;
+    background-color: #ddd;
+    margin: 0px;
+}
+
+.list {
+    margin: auto;
+    margin-top: 50px;
+    /* overwrite margin */
+    position: relative;
+    max-width: 600px;
+    height: 80%;
+    border-width: 0px;
+    box-shadow: inset 0 0 0 1px #1a73e8;
+    background-color: #fff;
+}
+
+.item {
+    padding-top: 30px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    border-bottom: solid rgba(105, 105, 105, 0.5) 1px;
+    border-radius: 1px;
+}
+
+.item .item-image {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.item .item-info {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 50%;
+}
+
+
+.item-button {
+    margin-left: auto;
+    right: 0px;
+    border-radius: 1.6rem;
+    border-width: 0px;
+    color: #1a73e8;
+    box-shadow: inset 0 0 0 1px #1a73e8;
+    height: 30px;
+    width: 100px;
+    background-color: inherit;
+    text-align: center;
+}
+
+.item-button:hover {
+    background-color: rgba(26, 115, 232, 0.25);
+    transition: 0.3s;
+}
+
+.item .button-deny {
+    box-shadow: inset 0 0 0 1px #e82f1a;
+    color: #e82f1a;
+}
+
+.item .button-deny:hover {
+    background-color: rgba(232, 47, 26, 0.25);
+    transition: 0.3s;
+}
+
+.time {
+    margin-left: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+
+    min-height: 25px;
+    min-width: 25px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.taken {
+    background: yellow;
+}
+
+.busy {
+    background: red;
+}
+
+.date-info {
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.add-slot {
+    text-align: center;
+    margin-top: 50px;
+    color: #1a73e8;
+    font-size:large;
+
+}
+
+.add-slot-button {
+    font-size:large;
+    border-radius: 1.6rem;
+    color: #1a73e8;
+    box-shadow: inset 0 0 0 2px #1a73e8;
+    border-width: 0px;
+    height: 35px;
+    width: 110px;
+    background-color: #fff;
+}
+
+.add-slot-button:hover {
+    background-color: rgba(26, 115, 232, 0.25);
+    transition: 0.3s;
+}
+
+.item-radio {
+    margin: auto;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.item-radio {
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.mainContent {
+    display: flex;
+    min-height: 100%;
+}
+
+nav {
+    width: 200px;
+    background: #7ac3fb;
+}
+
+
+nav header {
+    position: relative;
+    height: 40px;
+    padding: 10px 0px 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background: #6bbaf9;
+}
+
+nav header div {
+    position: relative;
+    margin: auto;
+}
+
+nav header img {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    border: 1px solid #fff;
+}
+
+nav ul {
+    padding-left: 0px;
+    margin:0px;
+}
+
+nav ul span {
+    display: block;
+    position: relative;
+
+    padding: 15px 15px 17px 15px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul li {
+    padding-left: 0px;
+}
+
+nav ul a {
+    position: relative;
+    display: block;
+    padding: 15px 15px 17px 30px;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul a:hover,
+nav ul a.active {
+    background: #48adff;
+}
+
+nav ul a:before {
+    top: 15px;
+    left: 18px;
+}
+
+main {
+    flex: 1;
+    padding: 25px;
+    background: #f2f7fb;
+}
+
+main h1 {
+    height: 60px;
+    margin: -25px -25px 25px -25px;
+    padding: 0 25px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    color:#999;
+    background: #d8eaf9;
+}
+
+.flex-grid {
+    display: flex;
+}
+
+.flex-grid>div {
+    flex: 1;
+    margin: 0 20px 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+
+.search-list {
+    text-align: left;
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    margin-right: 10px;
+    box-shadow: inset 0 0 0 1px #1a73e8;
+    border-width: 0px;
+    padding-left: 10px;
+}
+
+.search-button {
+    padding-right: auto;
+}
+
+.filter {
+    margin-top: 10px;
+}
+
+.filter select, .filter input {
+    margin-left: auto;
+    right: 0px;
+    border-width: 0px;
+    color: inherit;
+    box-shadow: inset 0 0 0 1px #1a73e8;
+    height: 30px;
+    background-color: inherit;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 150px;
+}

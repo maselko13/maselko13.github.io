@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+    background-color: #ddd;
+
+}
+
+.list {
+    margin: auto;
+    margin-top: 50px; /* overwrite margin */
+    position: relative;
+    width: 30%;
+    height: 80%;
+    border-radius: 25px;
+    border-width: 0px;
+    box-shadow: inset 0 0 0 1px #1a73e8;
+    background-color: #fff;
+}
+
+.item {
+    padding-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+    display: flex;
+    border-bottom:solid rgba(105,105,105,0.5) 1px;
+    border-radius: 1px;
+}
+
+.item .item-image {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.item .item-info {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 50%;
+}
+
+
+.item .item-button {
+    margin-left: auto;
+    right: 0px;
+    border-radius: 1.6rem;
+    border-width: 0px;
+    color: #1a73e8;
+    box-shadow: inset 0 0 0 1px #1a73e8;
+    height:30px;
+    width:100px;
+    background-color: inherit;
+    text-align: center;
+}
+
+.item .item-button:hover {
+    background-color:rgba(26,115,232,0.25);
+    transition: 0.3s;
+}
+
+.item .button-deny {
+    box-shadow: inset 0 0 0 1px #e82f1a;
+    color:#e82f1a;
+}
+
+.item .button-deny:hover {
+    background-color:rgba(232, 47, 26, 0.25);
+    transition: 0.3s;
+}
+
+.dates {
+    margin: auto;
+    margin-top: 50px; /* overwrite margin */
+    position: relative;
+    width: 30%;
+    height: 80%;
+    border-radius: 25px;
+    border-width: 0px;
+    box-shadow: inset 0 0 0 1px #1a73e8;
+    background-color: #fff;
+}
+
+.dates .date {
+    padding-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+    display: flex;
+    border-bottom:solid rgba(105,105,105,0.2) 1px;
+    border-radius: 1px;
+
+}
+
+.dates .date .radio {
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.dates .date .time {
+    margin-left: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+
+    min-height: 25px;
+    min-width: 25px;
+
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.taken  {
+    background: yellow;
+}
+
+.busy  {
+    background: red;
+}
+
+.date-info {
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.add-slot {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.add-slot-button {
+    font-size: larger;
+    border-radius: 1.6rem;
+    color: #1a73e8;
+    box-shadow: inset 0 0 0 2px #1a73e8;
+    border-width:0px;
+    height:45px;
+    width:150px;
+    background-color: #fff;
+}
+
+.add-slot-button:hover {
+    background-color:rgba(26,115,232,0.25);
+    transition: 0.3s;
+}
+
+.item-radio {
+    margin: auto;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.item-radio {
+    list-style: none;
+}

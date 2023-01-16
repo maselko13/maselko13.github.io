@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Mentor Dashboard</title>
+</head>
+
+<body style="background-color: #f2f7fb;">
+    <div class="mainContent">
+        <nav>
+            <header>
+                <div>
+                    <img class="item-image" src="./img.png">
+                    blabla
+                </div>
+            </header>
+
+            <ul>
+                <li><span>Navigation</span></li>
+                <li><a class="active">Dashboard</a></li>
+                <li><a href="loginmentor.html">Logout</a></li>
+            </ul>
+
+        </nav>
+
+        <main>
+
+            <h1>Mentor panel</h1>
+
+            <div class="flex-grid">
+                
+                <div class="list">
+                    <div
+                        style="text-align: center; margin: auto; padding-bottom: 5px; font-size: larger; border-bottom:solid rgba(105,105,105,0.2) 1px;">
+                        Mentees</div>
+                    <ul>
+                        <li class="item">
+                            <img class="item-image" src="./img.png">
+                            <div class="item-info">
+                                <div>
+                                    <strong>Name</strong> blablainfo
+                                </div>
+                                <div>
+                                    00:00-10:00
+                                </div>
+                                <div>
+                                    Purpose: blabla
+                                </div>
+                            </div>
+                            <div style="margin-left: auto; text-align: right;">
+                                <button class="item-button" style="margin-bottom: 5px;">Confirm</button>
+                                <button class="item-button button-deny">Deny</button>
+                            </div>
+                        </li>
+
+                        <li class="item">
+                            <img class="item-image" src="./img.png">
+                            <div class="item-info">
+                                <div>
+                                    <strong>Name</strong> blablainfo
+                                </div>
+                                <div>
+                                    00:00-10:00
+                                </div>
+                                <div>
+                                    Purpose: blabla
+                                </div>
+                            </div>
+                            <div style="margin-left: auto; text-align: right;">
+                                <button class="item-button" style="margin-bottom: 5px;">Confirm</button>
+                                <button class="item-button button-deny">Deny</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <div
+                        style="text-align: center; margin: auto; padding-bottom: 5px; font-size: larger; border-bottom:solid rgba(105,105,105,0.2) 1px;">
+                        Availability</div>
+                    <ul>
+                        <li class="item">
+                            <span class="dot taken busy"></span>
+                            <div class="time">00:00-12:00</div>
+                            <span class="date-info">blablabla</span>
+            
+                        </li>
+                        <li class="item">
+                            <span class="dot taken"></span>
+                            <div class="time">02:00-14:00</div>
+                            <span class="date-info">blablabla</span>
+            
+                        </li>
+                    </ul>
+                    <div class="add-slot">
+                        <input style="margin-right: 20px;" type="time" min="09:00" max="18:00" required>
+                        <button class="add-slot-button">Add Time</button>
+                
+                    </div>
+                </div>
+            </div>
+
+        </main>
+</body>
+
+</html>
